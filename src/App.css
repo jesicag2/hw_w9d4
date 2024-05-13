@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.character-list {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.character-list ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.character-list li {
+  margin-bottom: 20px;
+}
+
+.character-list img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.character-list span {
+  display: block;
+  margin-top: 5px;
+}
+
+.character-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.character-detail img {
+  width: 400px;
+  height: 350px;
+  border-radius: 5px;
+}
